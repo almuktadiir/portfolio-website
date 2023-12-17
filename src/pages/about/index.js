@@ -32,7 +32,7 @@ export const About = () => {
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.aboutme}</p>
+              <p className="justify-text">{dataabout.aboutme}</p>
             </div>
           </Col>
         </Row>
@@ -90,7 +90,7 @@ export const About = () => {
               return (
                 <div className="service_ py-4" key={i}>
                   <h5 className="service__title">{data.title}</h5>
-                  <p className="service_desc">{data.description}</p>
+                  <p className="service_desc justify-text">{data.description}</p>
                 </div>
               );
             })}

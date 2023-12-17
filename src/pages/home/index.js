@@ -37,9 +37,9 @@ export const Home = () => {
                     }}
                   />
                 </h1>
-                <p className="mb-1x">{introdata.description}</p>
+                <p className="mb-1x" style={{textAlign:'justify'}}>{introdata.description}</p>
                 <div className="intro_btn-action pb-5">
-                  <a href="https://drive.google.com/uc?export=download&id=1sgVllNufJwkoepJMHQmrhv6XfpapiCLV" download className="text_2">
+                  <a href="https://drive.google.com/uc?export=download&id=1qMrC9LP3TCnvDUrFJsWmSUuBUIVAZeNH" download className="text_2">
                     <div id="button_p" className="ac_btn btn ">
                       Download Resume
                     </div>
